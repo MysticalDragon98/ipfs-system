@@ -1,0 +1,21 @@
+{
+  "name": "ipfs-system",
+  "version": "1.0.0",
+  "types": "build/index.d.ts",
+  "main": "build/index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "Github",
+    "url": "https://github.com/MysticalDragon98/-mysticaldragon-ipfs-system"
+  },
+  "dependencies": {
+    "@mysticaldragon/ipfs": "^1.0.1"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.5.1"
+  },
+  "scripts": {
+    "run-example": "ts-node example",
+    "build": "tsc"
+  }
+}
